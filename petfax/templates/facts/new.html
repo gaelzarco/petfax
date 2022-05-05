@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Submit Fax</h1>
+        <h3>Submit your own pet fax here. We may use them in the future!</h3>
+        <form action="/facts" method="POST">
+            <div>
+                <label for="pet_name">Name</label>
+                <input 
+                    type="text"
+                    name="pet_name" 
+                    id="pet_name"
+                    required
+                />
+            </div>
+            <div>
+                <label for="pet_fact">Fact</label>
+                <input 
+                    type="text"
+                    name="pet_fact"
+                    id="pet_fact"
+                    required
+                />
+            </div>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
