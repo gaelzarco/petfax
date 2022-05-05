@@ -12,21 +12,19 @@
         <h3>Submit your own pet fax here. We may use them in the future!</h3>
         <form action="/facts" method="POST">
             <div>
-                <label for="pet_name">Name</label>
+                <label for="submitter">Name</label>
                 <input 
                     type="text"
-                    name="pet_name" 
-                    id="pet_name"
-                    required
+                    name="submitter" 
+                    id="submitter"
                 />
             </div>
             <div>
-                <label for="pet_fact">Fact</label>
+                <label for="fact">Fact</label>
                 <input 
                     type="text"
-                    name="pet_fact"
-                    id="pet_fact"
-                    required
+                    name="fact"
+                    id="fact"
                 />
             </div>
             <input type="submit"/>
